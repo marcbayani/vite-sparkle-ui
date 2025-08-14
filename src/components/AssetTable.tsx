@@ -31,8 +31,27 @@ const AssetTable = ({ selectedDepartment, selectedCategory }: AssetTableProps) =
   const [searchTerm, setSearchTerm] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
 
-  // Sample data - empty for now
-  const assets: Asset[] = [];
+  // Sample data to match the image
+  const assets: Asset[] = [
+    {
+      id: "1",
+      itemCode: "ConnecticutIF",
+      department: "Cashier",
+      category: "Hardware- PC Unit",
+      description: "Desktop Processor",
+      unitPrice: 6500,
+      ticketCount: 1
+    },
+    {
+      id: "2", 
+      itemCode: "ConnecticutIF",
+      department: "Cashier",
+      category: "Hardware- PC Unit", 
+      description: "Desktop Processor",
+      unitPrice: 6500,
+      ticketCount: 0
+    }
+  ];
 
   // Filter assets based on selections
   const filteredAssets = assets.filter((asset) => {
