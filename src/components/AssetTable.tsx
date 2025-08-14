@@ -70,10 +70,6 @@ const AssetTable = ({ selectedDepartment, selectedCategory }: AssetTableProps) =
 
   return (
     <div className="flex-1 p-6 space-y-6">
-      <div className="space-y-4">
-        <h1 className="text-3xl font-bold text-foreground">ASSET</h1>
-        <h2 className="text-2xl text-muted-foreground">MANAGEMENT</h2>
-      </div>
 
       <div className="flex items-center justify-between gap-4">
         <div className="relative flex-1 max-w-md">

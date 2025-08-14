@@ -10,6 +10,12 @@ const AssetManagement = () => {
   return (
     <div className="min-h-screen bg-background">
       <Header />
+      <div className="p-6 space-y-4">
+        <div className="space-y-4">
+          <h1 className="text-3xl font-bold text-foreground">ASSET</h1>
+          <h2 className="text-2xl text-muted-foreground">MANAGEMENT</h2>
+        </div>
+      </div>
       <div className="flex">
         <FilterSidebar
           selectedDepartment={selectedDepartment}
